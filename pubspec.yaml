@@ -1,0 +1,183 @@
+name: senty
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^2.0.0
+  flutter_swiper: ^1.1.6
+  contacts_service: ^0.4.5
+  permission_handler: 4.0.0
+  introduction_screen: ^1.0.8
+  datetime_picker_formfield: ^1.0.0
+  dropdownfield: ^1.0.3
+  barcode_scan: ^1.0.0
+  qr_flutter: ^3.2.0
+  path_provider:
+  solid_bottom_sheet: ^0.1.9
+  flutter_range_slider: ^1.4.0
+  progress_dialog: ^1.2.0
+  finance: ^0.1.0
+  path:
+  flip_card: ^0.4.4
+  carousel_pro: ^1.0.0
+  material_design_icons_flutter: ^3.4.4795
+  syncfusion_flutter_gauges: ^1.0.0-beta
+  badges: ^1.1.0
+  google_maps_flutter: ^0.5.21+16
+  flutter_masked_text: ^0.8.0
+  share: ^0.6.4
+  url_launcher: ^5.4.5
+  pin_entry_text_field: ^0.1.4
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  assets:
+    - images/scan.png
+    - images/paybyCode.png
+    - images/sendMoney.png
+    - images/wallet.png
+    - images/transfer.png
+    - images/topupCenter.png
+    - images/utilities.png
+    - images/sentiCredit.png
+    - images/invest.png
+    - images/curatedFood.png
+    - images/selectedStores.png
+    - images/moreapps.png
+    - images/artcaffeDeal.jpg
+    - images/dealTwo.jpg
+    - images/dealThree.jpeg
+    - images/dealFour.jpg
+    - images/dealFive.jpeg
+    - images/electricity.png
+    - images/water.png
+    - images/cableTv.png
+    - images/internet.png
+    - images/gas.png
+    - images/safaricomLogo.png
+    - images/airtelLogo.png
+    - images/telkomLogo.png
+    - images/customerServe.png
+    - images/home.png
+    - images/ncbaLogo.jpg
+    - images/parking.png
+    - images/success.png
+    - images/logo.png
+    - images/tellafriend.png
+    - images/airtimerecharge.jpg
+    - images/utilitiessliver.jpg
+    - images/electricitysliver.jpg
+    - images/watersliver.jpg
+    - images/cabletvsliver.jpg
+    - images/internetsliver.jpg
+    - images/theater.png
+    - images/more.png
+    - images/movies.png
+    - images/ticket.png
+    - images/travel.png
+    - images/discountOne.jpg
+    - images/discountTwo.jpg
+    - images/discountThree.jpg
+    - images/discountFive.jpeg
+    - images/dealSix.jpeg
+    - images/looplogo.jpg
+    - images/insurance.png
+    - images/mshwarilogo.jpg
+    - images/ncbaLoopmain.jpg
+    - images/movieOne.jpg
+    - images/moviesheading.png
+    - images/angaskycinema.png
+    - images/centuryCinemax.png
+    - images/westgatecinema.png
+    - images/events.jpg
+    - images/eventOne.jpeg
+    - images/eventTwo.jpeg
+    - images/eventFour.jpeg
+    - images/mpesa.jpg
+    - images/mastercard.jpg
+    - images/visalogo.png
+    - images/investments.png
+    - images/bigsquare.png
+    - images/artcafe.jpg
+    - images/dominospizza.png
+    - images/galitos.png
+    - images/java.jpg
+    - images/kfclogo.jpg
+    - images/debonairspizza.jpg
+    - images/foodanddrink.jpeg
+    - images/bestDeals.png
+    - images/more.png
+    - images/bank.png
+    - images/apartment.png
+    - images/entertainment.png
+    - images/foodanddrink.png
+    - images/uber.png
+    - images/moreminiapp.png
+    - images/sendy.png
+    - images/galitosfood.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
